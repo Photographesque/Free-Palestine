@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faa21d4123d556443abbbad79a10b72f, type: 3}
+  m_Name: 2.3.1
+  m_EditorClassIdentifier: 
+  labels:
+  - text: "Accepter l'aide du facteur et vous rendre ensemble au port pour rattraper
+      votre s\u0153ur.  "
+    text2: "Il ne voudra sans doute pas que vous utilisiez son bateau auquel il tient
+      tant, mais son empathie pourrait s'av\xE9rer utile. "
+    nextScene: {fileID: 11400000, guid: 8b0550bc939fa944eaee9e078f465426, type: 2}
+  - text: "Aller au port, en envisageant de voler le bateau de votre ami Scott pour
+      rattraper votre s\u0153ur. Ce serait trahir la confiance de votre ami,"
+    text2: "mais vous auriez peut-\xEAtre plus de chance d'emp\xEAcher votre s\u0153ur
+      de faire le pire. N'oubliez pas que poss\xE9der un bateau est interdit sauf
+      d\xE9rogations. Vous risquez de vous faire arr\xEAter par le gouvernement."
+    nextScene: {fileID: 11400000, guid: c39685c8d6a5d9545a8bbd49d6a41899, type: 2}

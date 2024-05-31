@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: 2.4.2
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "Attends, attends... Attends ?! Tu n'as quand m\xEAme pas l'attention de...
+      Si ?"
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 5
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 2f1d8a3ec257bb04b8ad7bff157dc550, type: 2}
+      spriteIndex: 0
+      actionType: 4
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+  - text: "Oui tu as devin\xE9. Mais je n'aurai pas pens\xE9 que tu sois tant surprise.
+      Oui j'ai l'attention de partir. Oui je vais quitter la Floride. J'ai d\xE9j\xE0
+      pens\xE9 \xE0 tout : la fronti\xE8re terrestre est trop bien surveill\xE9e
+      pour pouvoir passer, mais la fronti\xE8re maritime l'est moins. "
+    speaker: {fileID: 11400000, guid: 2f1d8a3ec257bb04b8ad7bff157dc550, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 2f1d8a3ec257bb04b8ad7bff157dc550, type: 2}
+      spriteIndex: 0
+      actionType: 5
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 4
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+  - text: 'Et comment est-ce que tu comptes faire... Oh non. '
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 5
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 2f1d8a3ec257bb04b8ad7bff157dc550, type: 2}
+      spriteIndex: 0
+      actionType: 4
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+  background: {fileID: 21300000, guid: 5044874c9f00d214186130c72c9e7827, type: 3}
+  nextScene: {fileID: 11400000, guid: afad3cb8aa5270d479febd52f7579f6a, type: 2}

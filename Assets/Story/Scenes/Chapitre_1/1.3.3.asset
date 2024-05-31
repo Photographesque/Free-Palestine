@@ -1,0 +1,192 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: 1.3.3
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "Ahh... Tout a bien chang\xE9 depuis que les eaux ont recouvert les c\xF4tes
+      de notre Floride..."
+    speaker: {fileID: 11400000, guid: d98b35069e62905439c4e8bfca3822c3, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d98b35069e62905439c4e8bfca3822c3, type: 2}
+      spriteIndex: 0
+      actionType: 5
+      coords: {x: -782, y: -155}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 4
+      coords: {x: -782, y: -155}
+      moveSpeed: 0
+  - text: "Tu pr\xE9f\xE9rais ta vie avant ?"
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 5
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: d98b35069e62905439c4e8bfca3822c3, type: 2}
+      spriteIndex: 0
+      actionType: 4
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+  - text: "Le facteur soupire et regarde \xE0 l'horizon."
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: d98b35069e62905439c4e8bfca3822c3, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+  - text: "C'\xE9tait diff\xE9rent. J'avais moins de secrets."
+    speaker: {fileID: 11400000, guid: d98b35069e62905439c4e8bfca3822c3, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d98b35069e62905439c4e8bfca3822c3, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 724, y: -155}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -782, y: -155}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: d98b35069e62905439c4e8bfca3822c3, type: 2}
+      spriteIndex: 0
+      actionType: 5
+      coords: {x: -782, y: -155}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 4
+      coords: {x: -782, y: -155}
+      moveSpeed: 0
+  - text: "Tu parles des lettres et des colis qui viennent des autres \xE9tats ?"
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 5
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: d98b35069e62905439c4e8bfca3822c3, type: 2}
+      spriteIndex: 0
+      actionType: 4
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+  - text: "Mais tu n'es pas cens\xE9 les d\xE9truire sans les lire ?"
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+  - text: "Si bien s\xFBr, je le fais."
+    speaker: {fileID: 11400000, guid: d98b35069e62905439c4e8bfca3822c3, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d98b35069e62905439c4e8bfca3822c3, type: 2}
+      spriteIndex: 0
+      actionType: 5
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 4
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+  - text: Nouveau silence.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d98b35069e62905439c4e8bfca3822c3, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+  - text: " Terminons ce ch\xE2teau de sable, veux-tu ? Tu sais que je n'ai pas le
+      droit de parler de tout cela."
+    speaker: {fileID: 11400000, guid: d98b35069e62905439c4e8bfca3822c3, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d98b35069e62905439c4e8bfca3822c3, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 724, y: -155}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -782, y: -155}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 4
+      coords: {x: -782, y: -155}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: d98b35069e62905439c4e8bfca3822c3, type: 2}
+      spriteIndex: 0
+      actionType: 5
+      coords: {x: -782, y: -155}
+      moveSpeed: 0
+  - text: "Je sais, d\xE9sol\xE9e... "
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 5
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: d98b35069e62905439c4e8bfca3822c3, type: 2}
+      spriteIndex: 0
+      actionType: 4
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+  - text: "J'ai trouv\xE9 ces coquillages sur la plage. Je vais en mettre un au sommet
+      du ch\xE2teau, et l'autre, je le ramasse comme souvenir !"
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions: []
+  - text: Hope ramasse un des coquillages sur la plage.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d98b35069e62905439c4e8bfca3822c3, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+  - text: "Un merveilleux souvenir du ch\xE2teau de sable que vous avez construit
+      avec le facteur. Ce moment restera grav\xE9 dans votre m\xE9moire. Quelle meilleure
+      activit\xE9 entre amis ? Le cr\xE9puscule \xE9tait magnifique, et le ch\xE2teau,
+      eh bien, il \xE9tait l\xE0 en tout cas."
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+  background: {fileID: 21300000, guid: 80c477e4ac3109e4789ffaf0d0c96ebf, type: 3}
+  nextScene: {fileID: 11400000, guid: 707e811baa86721488b16b64ab505dba, type: 2}

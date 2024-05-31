@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: 2.1
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "Je ne pourrai pas te payer malheureusement, le diesel pour mon bateau
+      co\xFBte trop cher hehe, mais ton aide serait la bienvenue !"
+    speaker: {fileID: 11400000, guid: d98b35069e62905439c4e8bfca3822c3, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d98b35069e62905439c4e8bfca3822c3, type: 2}
+      spriteIndex: 0
+      actionType: 5
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+  - text: "Alors c'est d\xE9cid\xE9 ! Je t'accompagne en tourn\xE9e ! J'ai h\xE2te
+      de d\xE9couvrir cette fameuse aventure dont tu me parles autant !"
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 1
+      actionType: 1
+      coords: {x: -782, y: -155}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: d98b35069e62905439c4e8bfca3822c3, type: 2}
+      spriteIndex: 1
+      actionType: 4
+      coords: {x: -782, y: -155}
+      moveSpeed: 0
+  - text: "Bien, bien, mais on ne tra\xEEne pas ! Les gens attendent la nourriture
+      du gouvernement !"
+    speaker: {fileID: 11400000, guid: d98b35069e62905439c4e8bfca3822c3, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d98b35069e62905439c4e8bfca3822c3, type: 2}
+      spriteIndex: 0
+      actionType: 5
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -782, y: -155}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 4
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+  - text: "\xC7a devait \xEAtre quand m\xEAme plus facile quand il y avait tous ces
+      grands magasins... Tu crois qu'il y en a dans les autres \xE9tats ?"
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -782, y: -155}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: d98b35069e62905439c4e8bfca3822c3, type: 2}
+      spriteIndex: 0
+      actionType: 4
+      coords: {x: -782, y: -155}
+      moveSpeed: 0
+  - text: "Je ne sais pas, et si je le savais, je ne te le dirais pas. Tout ce que
+      je sais, c'est qu'au moins tout le monde a \xE0 manger et de mani\xE8re \xE9quitable,
+      gr\xE2ce au gouvernement."
+    speaker: {fileID: 11400000, guid: d98b35069e62905439c4e8bfca3822c3, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d98b35069e62905439c4e8bfca3822c3, type: 2}
+      spriteIndex: 0
+      actionType: 5
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 4
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+  - text: "\xC7a m'\xE9tonnerait que les autres \xE9tats aient un fonctionnement
+      aussi \xE9galitaire. Ils sont rest\xE9s sur un mod\xE8le capitaliste tu sais. "
+    speaker: {fileID: 11400000, guid: d98b35069e62905439c4e8bfca3822c3, type: 2}
+    actions: []
+  - text: "Oui, mais j'ai entendu qu'ils sont beaucoup plus libres, qu'ils peuvent
+      m\xEAme voyager !"
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d98b35069e62905439c4e8bfca3822c3, type: 2}
+      spriteIndex: 0
+      actionType: 4
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 5
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+  - text: "Mieux vaut \xEAtre heureux et avoir une vie tranquille dans ce monde,
+      croit moi. Ici je rends les gens heureux, et cela me rends joyeux que demander
+      de plus ?"
+    speaker: {fileID: 11400000, guid: d98b35069e62905439c4e8bfca3822c3, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d98b35069e62905439c4e8bfca3822c3, type: 2}
+      spriteIndex: 0
+      actionType: 5
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 4
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+  - text: "Et puis, je commence \xE0 me faire vieux, je n'ai pas envie de recommencer
+      \xE0 z\xE9ro, j'aime ma vie ici."
+    speaker: {fileID: 11400000, guid: d98b35069e62905439c4e8bfca3822c3, type: 2}
+    actions: []
+  - text: Je comprends, je comprends, tu te transformes en vieillard finalement !
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 5
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: d98b35069e62905439c4e8bfca3822c3, type: 2}
+      spriteIndex: 0
+      actionType: 4
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+  - text: Tu sais ce qu'il te dit le vieux ?
+    speaker: {fileID: 11400000, guid: d98b35069e62905439c4e8bfca3822c3, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d98b35069e62905439c4e8bfca3822c3, type: 2}
+      spriteIndex: 0
+      actionType: 5
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 4
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+  background: {fileID: 21300000, guid: ea47288742054d04dbe1840eeda7a0fc, type: 3}
+  nextScene: {fileID: 11400000, guid: 97d2f46ebb503d342a111f872c35c3de, type: 2}

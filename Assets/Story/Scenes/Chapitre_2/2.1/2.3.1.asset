@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: 2.3.1
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Mais non voyons...
+    speaker: {fileID: 11400000, guid: d98b35069e62905439c4e8bfca3822c3, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d98b35069e62905439c4e8bfca3822c3, type: 2}
+      spriteIndex: 0
+      actionType: 5
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 4
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+  - text: "Allez arr\xEAtons les b\xEAtises. Et tu sais, peut-\xEAtre qu'un jour
+      le gouvernement autorisera de nouveau les bateaux, et que tu pourras visiter
+      le monde !"
+    speaker: {fileID: 11400000, guid: d98b35069e62905439c4e8bfca3822c3, type: 2}
+    actions: []
+  - text: Garde espoir !
+    speaker: {fileID: 11400000, guid: d98b35069e62905439c4e8bfca3822c3, type: 2}
+    actions: []
+  background: {fileID: 21300000, guid: ea47288742054d04dbe1840eeda7a0fc, type: 3}
+  nextScene: {fileID: 11400000, guid: 07c624488455aa6429badf5479262063, type: 2}

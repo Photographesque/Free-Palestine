@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faa21d4123d556443abbbad79a10b72f, type: 3}
+  m_Name: 1.3
+  m_EditorClassIdentifier: 
+  labels:
+  - text: On pouvait lire les infos du reste du monde ?
+    text2: 
+    nextScene: {fileID: 11400000, guid: 05180c577ed1b7040bb7e5e8e6d2ceb9, type: 2}
+  - text: "C'\xE9tait plus facile de trouver l'amour ?"
+    text2: 
+    nextScene: {fileID: 11400000, guid: 361f40392480b7446b9b80a3772d273c, type: 2}

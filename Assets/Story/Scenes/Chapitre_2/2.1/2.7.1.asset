@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: 2.7.1
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "Le bateau de Scott ! Tiens, on dirait qu'il n'a pas encore brul\xE9s ce
+      qui provient des autres \xE9tats ce mois-ci..."
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d98b35069e62905439c4e8bfca3822c3, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 5
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+  - text: "Une lettre qui provient de G\xE9orgie. Il s'agit d'une femme qui essaie
+      de contacter son mari. La lettre vous apprend que le gouvernement de Floride
+      est r\xE9put\xE9 pour \xE9liminer ceux qui tenteraient de s'enfuir de l'\xE9tat.
+      La Floride est vue comme une dictature autoritaire, dont le fonctionnement
+      conduirait \xE0 un appauvrissement g\xE9n\xE9ral de la population. De quoi
+      vous donner envie de quitter la Floride en plus des catastrophes li\xE9es \xE0
+      la mont\xE9e des eaux."
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+  - text: "Un myst\xE9rieux colis contenant une photo de G\xE9orgie. La vie y semble
+      \xEAtre bien meilleure que ce que la propagande du gouvernement laisse entendre...
+      Le gouvernement vous ment sciemment. Que vous cache-t-il d'autre ? "
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+  - text: "Protocole officiel de navigation \xE0 l'attention des camarades du gouvenement. 
+      - \xC9tape une, veuillez lever le drapeau rouge - \xC9tape deux, retirer toutes
+      les bou\xE9es sur les c\xF4t\xE9s de votre navire - \xC9tape trois, l'ancre
+      doit \xEAtre inclin\xE9e vers le ciel, en hommage pour notre bien aim\xE9 gouverneur. 
+      Tout manquement au protocole se verra sanctionn\xE9 par nos vigilants camarades. "
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+  - text: 'J''aurai du m''en douter... Je comprends mieux pourquoi elle s''est enfuie,
+      elle devait avoir ces informations sur le gouvernement ! '
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -782, y: -155}
+      moveSpeed: 0
+  - text: "Je n'ai pas le choix Scott, je suis vraiment d\xE9sol\xE9e... Je sais
+      que tu adores ton m\xE9tier et qu'il te rend heureux... Mais je reviendrai
+      te rendre ton bateau ! Enfin, j'esp\xE8re..."
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions: []
+  - text: Je, je dois retrouver ma soeur ! Pardonne-moi...
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions: []
+  - text: "Vous respectez le protocole du gouvernement pour l'utilisation des bateaux
+      et ce faisant, aucun garde c\xF4te ne vient vous arr\xEAter."
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+  - text: "Votre s\u0153ur s'est d\xE9j\xE0 enfuie en bateau. Vous avez fait le choix
+      de trahir votre ami en volant son outil et son lieu de travail : son bateau.
+      Une d\xE9cision \xE9go\xEFste, mais vous pensez que c'est le seul moyen de
+      sauver votre s\u0153ur. En effet, gr\xE2ce aux informations trouv\xE9es dans
+      les colis confidentiels de votre ami facteur, vous savez que le gouvernement
+      risque de l'arr\xEAter et de l'\xE9liminer comme il le fait pour les autres
+      fuyards ! C'est le d\xE9but de votre odyss\xE9e \xE0 la recherche de votre
+      soeur, et peut-\xEAtre d'une nouvelle vie. Vous n'avez pas perdu espoir, votre
+      vie future sera peut-\xEAtre meilleure !"
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+  background: {fileID: 21300000, guid: 5044874c9f00d214186130c72c9e7827, type: 3}
+  nextScene: {fileID: 0}

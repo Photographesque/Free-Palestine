@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: 2.8.2
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "Quelques instants plus tard, vous volez le bateau du facteur mais... un
+      garde-c\xF4te vous interpelle rapidement."
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+  - text: "Stoppez le moteur ! \xC0 genoux les mains sur la t\xEAte !"
+    speaker: {fileID: 11400000, guid: 3e8b0446ee4a61640b987d4c3abd0bf9, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 3e8b0446ee4a61640b987d4c3abd0bf9, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 724, y: -155}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 4
+      coords: {x: 724, y: -155}
+      moveSpeed: 0
+  - text: Monsieur l'agent s'il vous plait !
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 2
+      actionType: 1
+      coords: {x: -782, y: -155}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 3e8b0446ee4a61640b987d4c3abd0bf9, type: 2}
+      spriteIndex: 0
+      actionType: 4
+      coords: {x: -782, y: -155}
+      moveSpeed: 0
+  - text: Taisez-vous !
+    speaker: {fileID: 11400000, guid: 3e8b0446ee4a61640b987d4c3abd0bf9, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 3e8b0446ee4a61640b987d4c3abd0bf9, type: 2}
+      spriteIndex: 0
+      actionType: 5
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 2
+      actionType: 4
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+  - text: "Central, j'ai un 10-98 et deux 10-107, demande de proc\xE9dure."
+    speaker: {fileID: 11400000, guid: 3e8b0446ee4a61640b987d4c3abd0bf9, type: 2}
+    actions: []
+  - text: "Qu'est ce que \xE7a veux dire tous ces codes ?"
+    speaker: {fileID: 11400000, guid: 2f1d8a3ec257bb04b8ad7bff157dc550, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 3e8b0446ee4a61640b987d4c3abd0bf9, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 2f1d8a3ec257bb04b8ad7bff157dc550, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 724, y: -155}
+      moveSpeed: 0
+  - text: J'en sais rien. Mais taisons-nous et restons calme, tout va bien se passer.
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -782, y: -155}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 2f1d8a3ec257bb04b8ad7bff157dc550, type: 2}
+      spriteIndex: 0
+      actionType: 4
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+  - text: 10-04.
+    speaker: {fileID: 11400000, guid: 3e8b0446ee4a61640b987d4c3abd0bf9, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 2f1d8a3ec257bb04b8ad7bff157dc550, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 3e8b0446ee4a61640b987d4c3abd0bf9, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 724, y: -155}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 4
+      coords: {x: 724, y: -155}
+      moveSpeed: 0
+  - text: Vous entendez un click et...
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 3e8b0446ee4a61640b987d4c3abd0bf9, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 724, y: -155}
+      moveSpeed: 0
+  - text: "Vous avez \xE9t\xE9 arr\xEAt\xE9es, et nul ne sait ce qu'il est advenu
+      apr\xE8s cet effroyable click. Vous ne savez ce qui a pu attirer l'attention
+      du gouvernement sur vous. Vous manquez sans doute d'informations... Non seulement
+      vous avez trahi la confiance de Scott en volant son bateau, mais en plus de
+      cela vous ne sortirez jamais de Floride. Ainsi l'Espoir s'\xE9teint."
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+  background: {fileID: 21300000, guid: c3dffeedcf8504c4c98f15ebeeb5f362, type: 3}
+  nextScene: {fileID: 0}

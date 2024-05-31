@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: 2.8.1
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "Je ne la vois nulle part ! Tu crois que... ? Je devrais appeler mes coll\xE8gues,
+      ils l'auront peut-\xEAtre vu passer en bateau !"
+    speaker: {fileID: 11400000, guid: d98b35069e62905439c4e8bfca3822c3, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d98b35069e62905439c4e8bfca3822c3, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 724, y: -155}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -782, y: -155}
+      moveSpeed: 0
+  - text: "Nous devons r\xE9agir vite, il ne faut pas qu'elle se fasse arr\xEAter
+      !"
+    speaker: {fileID: 11400000, guid: d98b35069e62905439c4e8bfca3822c3, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 2
+      actionType: 1
+      coords: {x: -782, y: -155}
+      moveSpeed: 0
+  - text: "Vous \xEAtes arriv\xE9 trop tard pour sauver votre s\u0153ur. Elle s'est
+      enfuie de Floride. Votre ami Scott aura fait de son mieux pour obtenir des
+      informations sur votre s\u0153ur et, apr\xE8s plusieurs semaines sans nouvelles,
+      vous apprenez gr\xE2ce aux contacts de Scott qu'elle s'est fait arr\xEAter
+      par le gouvernement et que son bateau a \xE9t\xE9 coul\xE9. Depuis, elle a
+      disparu des radars. Vous vous en voulez terriblement. Peut-\xEAtre n'auriez
+      vous pas d\xFB passer autant de temps avec le facteur..."
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d98b35069e62905439c4e8bfca3822c3, type: 2}
+      spriteIndex: 2
+      actionType: 3
+      coords: {x: -782, y: -155}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 2
+      actionType: 3
+      coords: {x: -782, y: -155}
+      moveSpeed: 0
+  background: {fileID: 21300000, guid: 5044874c9f00d214186130c72c9e7827, type: 3}
+  nextScene: {fileID: 0}
